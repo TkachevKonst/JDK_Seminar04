@@ -28,7 +28,6 @@ public class EmployeeDirectory {
                 return employees.get(i);
             }
         }
-        System.out.println("Сотрудника с таким табельным номером нет");
         return null;
     }
 
@@ -40,9 +39,6 @@ public class EmployeeDirectory {
                 employees1.add(employees.get(i));
             }
         }
-        if (employees.isEmpty()) {
-            System.out.println("Сотрудников с таким стажем работы нет");
-        }
         return employees1;
     }
 
@@ -52,7 +48,6 @@ public class EmployeeDirectory {
                 return employees.get(i);
             }
         }
-        System.out.println("Сотрудника с таким номером телефона нет");
         return null;
     }
 
